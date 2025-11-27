@@ -1,0 +1,106 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>yrs_vert_1</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">1985</MDI>
+      <MDI key="STATISTICS_MAXIMUM">1985</MDI>
+      <MDI key="STATISTICS_MEAN">1985</MDI>
+      <MDI key="STATISTICS_STDDEV">0</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="2">
+    <Description>yrs_vert_2</Description>
+    <Histograms>
+      <HistItem>
+        <HistMin>1985.5125</HistMin>
+        <HistMax>2025.4875</HistMax>
+        <BucketCount>40</BucketCount>
+        <IncludeOutOfRange>0</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>19|3|2|2|12|1|11|3|7|7|8|3|2|8|24|0|1|1|3|1|3|1|0|1|4|1|2|17|0|1|0|1|11|10|20|19|0|0|0|266</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">1986</MDI>
+      <MDI key="STATISTICS_MAXIMUM">2025</MDI>
+      <MDI key="STATISTICS_MEAN">2015.7936842105</MDI>
+      <MDI key="STATISTICS_STDDEV">13.245041260998</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="3">
+    <Description>yrs_vert_3</Description>
+    <Histograms>
+      <HistItem>
+        <HistMin>-2.131578947368421</HistMin>
+        <HistMax>2027.131578947368</HistMax>
+        <BucketCount>475</BucketCount>
+        <IncludeOutOfRange>0</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>266|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|13|26|19|5|1|15|2|10|118</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">2025</MDI>
+      <MDI key="STATISTICS_MEAN">886.64421052632</MDI>
+      <MDI key="STATISTICS_STDDEV">1000.3068548901</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="4">
+    <Description>yrs_vert_4</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="5">
+    <Description>yrs_vert_5</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="6">
+    <Description>yrs_vert_6</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="7">
+    <Description>yrs_vert_7</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="8">
+    <Description>src_vert_1</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="9">
+    <Description>src_vert_2</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="10">
+    <Description>src_vert_3</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="11">
+    <Description>src_vert_4</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="12">
+    <Description>src_vert_5</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="13">
+    <Description>src_vert_6</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="14">
+    <Description>src_vert_7</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="15">
+    <Description>fit_vert_1</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="16">
+    <Description>fit_vert_2</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="17">
+    <Description>fit_vert_3</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="18">
+    <Description>fit_vert_4</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="19">
+    <Description>fit_vert_5</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="20">
+    <Description>fit_vert_6</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="21">
+    <Description>fit_vert_7</Description>
+  </PAMRasterBand>
+</PAMDataset>

@@ -1,0 +1,81 @@
+,row,col,StemTag,frac,Status_2024,Status_2025,crown_intact_2024,crown_intact_2025,crown_living_2024,crown_living_2025,BBD,BBD_severity,BLD,BLD_severity,FAD_2024,Fungi (F),Leaf Damage (LF),Insect Infection (I),Canker (K),Wound (W),Rot (R),Defolation (DF),Broken stem(B),Animal Damage (An),Hollow Stem (HS),Bark Beetles (BB),Unknown (U),notes,Heart Rot (H),Useable
+0,10,20,311361,0.019336839429418686,AU,AU,91,90.0,87,85.0,1.0,"large cankers, scale insect, orange bark",1.0,banded leaves,"K,R,I",0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+1,10,21,311361,0.016246802476354544,AU,AU,91,90.0,87,85.0,1.0,"large cankers, scale insect, orange bark",1.0,banded leaves,"K,R,I",0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+2,11,20,311361,0.015305758967488684,AU,AU,91,90.0,87,85.0,1.0,"large cankers, scale insect, orange bark",1.0,banded leaves,"K,R,I",0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+3,11,21,311361,0.012621429384629948,AU,AU,91,90.0,87,85.0,1.0,"large cankers, scale insect, orange bark",1.0,banded leaves,"K,R,I",0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+4,8,22,331632,0.09432159948633385,AU,AU,94,90.0,82,85.0,1.0,"large cankers, scale insect, orange bark",1.0,banded,"I,W,R,K,F",1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+5,8,22,331779,0.009646533652303566,AU,AU,99,99.0,99,99.0,1.0,"large cankers, orange bark, scale insect",1.0,strongly banded leaves,"I,W,K,R",0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+6,5,17,261167,0.009113452373228139,AU,AU,97,95.0,91,90.0,1.0,"small cankers, scale insect",1.0,strongly banded leaves,K,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+7,6,19,281383,0.008986131343440399,AU,AU,85,85.0,60,37.0,1.0,"large cankers, scale insect, orange bark",1.0,"advanced, curled and dead leaves","K,DF",0.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+8,7,18,281321,0.012651547393431242,AU,AU,58,82.0,49,66.0,1.0,"large cankers, scale insect",1.0,"advanced, curled and dead leaves","K,R,W",0.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,RATED 2 but in the canopy ,0.0,Yes
+9,6,19,291714,0.034488574764799274,AU,AU,89,70.0,77,50.0,1.0,"large cankers, scale insect, fungi, orange bark",1.0,strongly banded leaves,"K,DF",1.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+10,7,5,081091,0.07406118914523688,A,A,100,100.0,100,100.0,0.0,,0.0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+11,8,5,081091,0.024212542097097157,A,A,100,100.0,100,100.0,0.0,,0.0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+12,8,21,321651,0.010442206336880698,AU,AU,95,80.0,48,45.0,1.0,"large cankers, scale insect, orange bark",1.0,banded leaves,"K,I,DF,R",0.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+13,9,21,321651,0.008902546707146086,AU,AU,95,80.0,48,45.0,1.0,"large cankers, scale insect, orange bark",1.0,banded leaves,"K,I,DF,R",0.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+14,8,19,301364,0.06078055246994554,AU,AU,100,100.0,92,95.0,1.0,small cankers,1.0,banded leavws,"W,R",0.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+15,8,20,301364,0.060257992113838824,AU,AU,100,100.0,92,95.0,1.0,small cankers,1.0,banded leavws,"W,R",0.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+16,9,19,301364,0.060076304019173424,AU,AU,100,100.0,92,95.0,1.0,small cankers,1.0,banded leavws,"W,R",0.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+17,9,20,301364,0.0595537436630667,AU,AU,100,100.0,92,95.0,1.0,small cankers,1.0,banded leavws,"W,R",0.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+18,5,18,281585,0.024510378051312596,AU,AU,100,100.0,100,100.0,1.0,"large cankers, scale insect, orange bark",1.0,strongly banded leaves,"I,R,K",0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+19,5,19,281585,0.024258549497470767,AU,AU,100,100.0,100,100.0,1.0,"large cankers, scale insect, orange bark",1.0,strongly banded leaves,"I,R,K",0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+20,0,14,211039,0.07866675797139616,DS,DS,13,10.0,0,0.0,0.0,,,,,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,,1.0,Yes
+21,1,14,211039,0.07845881210895694,DS,DS,13,10.0,0,0.0,0.0,,,,,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,,1.0,Yes
+22,2,12,181617,0.02120829875812881,A,AU,99,100.0,98,100.0,1.0,"scale insect, fungi",1.0,strongly banded leaves,,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,growing through another tree,0.0,Yes
+23,3,12,181617,0.020250284264288137,A,AU,99,100.0,98,100.0,1.0,"scale insect, fungi",1.0,strongly banded leaves,,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,growing through another tree,0.0,Yes
+24,3,13,191166,0.014351835889312728,AU,AU,40,70.0,20,40.0,1.0,"large cankers, scale insect, orange bark",1.0,banded leaves,"K,W,B",0.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+25,3,14,201050,0.0038091307026635367,AU,AU,100,100.0,95,10.0,1.0,"Big cankers, scale insect, orange bark",1.0,"advanced, curled and dead leaves","K,DF",1.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+26,2,13,191242,0.04969278428843738,AU,AU,90,90.0,78,75.0,1.0,"big cankers, scale insect, orange bark",0.0,,"K,DF",0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+27,3,13,191242,0.03401328508209631,AU,AU,90,90.0,78,75.0,1.0,"big cankers, scale insect, orange bark",0.0,,"K,DF",0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+28,10,22,331456,0.018321689829420586,AU,AU,99,99.0,99,99.0,1.0,"large cankers, scale insect, orange bark",1.0,"advanced, curled and dead","I,R,K",0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+29,11,22,331456,0.0032338571643569032,AU,AU,99,99.0,99,99.0,1.0,"large cankers, scale insect, orange bark",1.0,"advanced, curled and dead","I,R,K",0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+30,10,23,341162,0.01999090721200093,AU,AU,93,93.0,78,80.0,1.0,"small cankers, scale insect",1.0,banded leaves,"K,DF",0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+31,16,15,240109,0.05768788630164523,AU,AU,97,99.0,96,60.0,1.0,"small cankers, scale insect, orange bark",1.0,"advanced, curled and dead","K,I",0.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+32,16,16,240109,0.0054937415402153845,AU,AU,97,99.0,96,60.0,1.0,"small cankers, scale insect, orange bark",1.0,"advanced, curled and dead","K,I",0.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+33,17,15,240109,0.006007065441741785,AU,AU,97,99.0,96,60.0,1.0,"small cankers, scale insect, orange bark",1.0,"advanced, curled and dead","K,I",0.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+34,15,11,170750,0.01220719885201132,AU,AU,98,95.0,86,75.0,1.0,"small cankers, scale insect",1.0,"advanced, curled and dead leaves","DF,LF",0.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+35,15,10,160836,0.002519668864466999,AU,AU,95,95.0,90,90.0,1.0,"large cankers, scale insect, orange bark",1.0,"advanced, curled and dead leaves","K,I,F",0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+36,14,9,140377,0.00638751099408659,AU,AU,95,95.0,63,55.0,1.0,"small cankers, scale insect",1.0,"advanced, curled and dead leaves","F,K,DF",0.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,Oak seems to have overgrown it in the last 5 years,0.0,Yes
+37,14,8,130286,0.03131363409010856,A,AU,100,100.0,100,100.0,1.0,"small cankers, scale insect",1.0,strongly banded leaves,,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+38,14,9,130286,0.005337702479647025,A,AU,100,100.0,100,100.0,1.0,"small cankers, scale insect",1.0,strongly banded leaves,,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+39,13,8,130332,0.028983358960033387,DS,AU,80,80.0,0,10.0,1.0,"large cankers, scale insect, orange bark",1.0,strongly banded leaves,"DF,BB",0.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,No
+40,14,7,110339,0.002996230158138404,A,AU,98,100.0,96,100.0,1.0,"small cankers, scale insect, orange bark ",1.0,banded leaves,,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+41,15,7,110339,0.0003652064271159488,A,AU,98,100.0,96,100.0,1.0,"small cankers, scale insect, orange bark ",1.0,banded leaves,,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+42,4,19,281699,0.03230650182269066,AU,AU,91,100.0,90,95.0,1.0,"small cankers, orange bark",1.0,banded leaves,"I,W,K",0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+43,5,19,281525,0.010974451005597522,AU,AU,65,40.0,34,30.0,1.0,"large cankers, scale insect, orange bark",1.0,strongly banded leaves,"DF,I,K",0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,no canopy branches are alive all lower branches,0.0,Yes
+44,4,19,281675,0.035816677264179114,AU,AU,95,100.0,81,95.0,1.0,"large cankers, orange bark",1.0,strongly banded leaves,K,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+45,5,19,281675,0.018215281222232017,AU,AU,95,100.0,81,95.0,1.0,"large cankers, orange bark",1.0,strongly banded leaves,K,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+46,6,19,281323,0.027971410530130726,AU,AU,90,90.0,78,75.0,1.0,"small cankers, scale insect",1.0,strongly banded leaves,"K,R,LF",1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,,0.0,Yes
+47,7,19,281323,2.3770950511933916e-05,AU,AU,90,90.0,78,75.0,1.0,"small cankers, scale insect",1.0,strongly banded leaves,"K,R,LF",1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,,0.0,Yes
+48,7,18,271345,0.01763689139151513,AU,AU,58,100.0,56,100.0,1.0,"small cankers, scale insect, fungi",1.0,banded leaves,"R,W,K,I",1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,,Yes
+49,7,10,151427,0.025362240312604232,DS,DS,43,30.0,0,0.0,0.0,,,,,1.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,,1.0,Yes
+50,1,14,211000,0.02717222132892357,DS,DS,48,48.0,0,0.0,1.0,"large cankers, scale insect, orange bark",,,"K,F,R,DF",1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,"disagreed with Hastings, drew new crown",1.0,Yes
+51,2,14,211000,0.025653312103039384,DS,DS,48,48.0,0,0.0,1.0,"large cankers, scale insect, orange bark",,,"K,F,R,DF",1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,"disagreed with Hastings, drew new crown",1.0,Yes
+52,4,18,271653,0.049803028674613434,AU,DS,33,30.0,12,0.0,1.0,big cankers,,,"R,W,F,K,B",1.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,"Standing is subjective, it broke near the base and is leaning into other trees so it isn't completely upright",1.0,Yes
+53,4,18,261302,0.008057367987662576,DS,DS,0,0.0,0,0.0,1.0,"big cankers, bark falling off hard to tell",,,,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,dead a long time,0.0,Yes
+54,4,17,251485,0.038971760911671746,AU,AU,98,70.0,92,60.0,1.0,"big cankers, scale insect, orange bark",1.0,banded leaves,"W,R,K,I",0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,,0.0,Yes
+55,2,15,220932,0.01773395750407939,AU,AU,95,95.0,89,90.0,1.0,small cankers,1.0,banded leaves,"K,W",0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"Only a couple of leaves with BLD, very slight",0.0,Yes
+56,3,13,201046,0.006543786589998454,AU,AU,58,60.0,53,60.0,1.0,"Small cankers, scale insect, orange bark ",1.0,"advanced, curled and dead leaves","B,W",0.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+57,3,14,201046,0.0006169930972670134,AU,AU,58,60.0,53,60.0,1.0,"Small cankers, scale insect, orange bark ",1.0,"advanced, curled and dead leaves","B,W",0.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+58,10,17,271124,0.014895164533788427,AU,AU,90,90.0,79,75.0,1.0,"big cankers, orange bark",1.0,banded leaves,"K,I",0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+59,2,9,131659,0.005802351472817759,AU,AU,99,100.0,99,100.0,1.0,"large cankers, scale insect, fungi, orange bark",1.0,banded leaves,"I,K",1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+60,5,10,151613,0.0262847898636772,AU,AU,84,80.0,65,65.0,1.0,"large cankers, scale insect, orange bark",1.0,"advanced, curled leaves","K,R,I,DF,W",0.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+61,1,3,042565,0.02327331910699671,A,AU,100,100.0,100,100.0,1.0,"small cankers, fungi",1.0,"strongly banded, lower branches shriveled and brown leaves",,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+62,5,6,081369,0.008016428835360344,AU,AU,100,100.0,100,100.0,1.0,"scale insect, small cankers",1.0,banded leaves,K,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+63,13,2,040652,0.054133093819046865,A,AU,100,100.0,100,100.0,1.0,"low, black fungi, some small cankers",1.0,banded leaves,,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+64,13,3,040652,0.0062663155221971975,A,AU,100,100.0,100,100.0,1.0,"low, black fungi, some small cankers",1.0,banded leaves,,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+65,2,11,162138,0.014757320064439645,DS,DS,30,5.0,0,0.0,1.0,"cankers, scale insect, orange bark, fungi",,,,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+66,14,10,160809,0.018059918501207257,AU,AU,94,100.0,68,99.0,1.0,"large cankers, scale insect",1.0,banded leaves,"K,I,F",0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+67,14,11,160809,0.004343402251053764,AU,AU,94,100.0,68,99.0,1.0,"large cankers, scale insect",1.0,banded leaves,"K,I,F",0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+68,16,6,100091,0.0036437719621277708,AU,AU,99,97.0,94,80.0,1.0,"big cankers, scale insect",1.0,strongly banded leaves,"I,K,LF",0.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+69,5,4,061581,0.008323828133538743,AU,AU,96,50.0,92,10.0,1.0,"advanced, scale insect, medium cankers, strong orange bark",1.0,strongly banded leaves,K,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+70,2,2,032534,0.012896781405219188,A,AU,100,100.0,100,100.0,1.0,small cankers,1.0,strongly banded leaves,,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+71,14,19,300593,0.0031258056200787754,AU,AU,42,40.0,40,39.0,1.0,"small cankers, scale insect, orange bark",1.0,"advanced, curled and dead","B,W,K,R,I",0.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,surrounding trees are all cut and down,0.0,Yes
+72,14,19,300570,0.00255825907214628,AU,AU,92,99.0,87,95.0,1.0,"large cankers, scale insect, orange bark",1.0,"advanced, curled and dead","K,I,LF",0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+73,13,18,280672,0.0020842564877062058,AU,AU,96,90.0,68,33.0,1.0,"large cankers, scale insect, orange bark",1.0,strongly banded leaves,"K,DF,LF",0.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+74,6,9,131058,0.0027856225948476995,AU,AU,90,90.0,87,20.0,1.0,"small cankers, scale insect, orange bark",1.0,banded leaves,"I,DF,LF,K,R",1.0,1.0,1.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,,1.0,Yes
+75,6,8,131112,0.004217672929972736,AU,AU,99,100.0,99,100.0,1.0,scale insect,1.0,banded leaves,"W,R,F",0.0,1.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+76,6,9,131112,0.003644202256105106,AU,AU,99,100.0,99,100.0,1.0,scale insect,1.0,banded leaves,"W,R,F",0.0,1.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Yes
+77,12,20,300802,0.012646654131144736,AU,DS,96,6.0,5,0.0,1.0,small cankers,,,"DF,LF,K,I",0.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,,0.0,Yes
+78,13,20,300802,0.012634412849915271,AU,DS,96,6.0,5,0.0,1.0,small cankers,,,"DF,LF,K,I",0.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,,0.0,Yes
+79,13,20,310909,0.008419287966305571,AU,AU,98,80.0,96,33.0,1.0,"big cankers, scale insect, orange bark",1.0,"advanced, curled and dead","K,I,LF,B,W",0.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,,0.0,Yes
