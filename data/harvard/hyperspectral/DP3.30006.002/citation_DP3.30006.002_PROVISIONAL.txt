@@ -1,0 +1,9 @@
+@misc{DP3.30006.002/provisional,
+  doi = {},
+  url = {https://data.neonscience.org/data-products/DP3.30006.002},
+  author = {{National Ecological Observatory Network (NEON)}},
+  language = {en},
+  title = {Spectrometer orthorectified surface bidirectional reflectance - mosaic (DP3.30006.002)},
+  publisher = {National Ecological Observatory Network (NEON)},
+  year = {2025}
+}

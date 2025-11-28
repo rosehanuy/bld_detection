@@ -1,0 +1,517 @@
+This data package was produced by and downloaded from the National Ecological Observatory Network (NEON). NEON is
+funded by the National Science Foundation (Awards 0653461, 0752017, 1029808, 1138160, 1246537, 1638695, 1638696,
+1724433) and managed cooperatively by Battelle. These data are provided under the terms of the NEON data policy at
+https://www.neonscience.org/data-policy.
+
+DATA PRODUCT INFORMATION
+------------------------
+
+ID: NEON.DOM.SITE.DP3.30006.002
+
+Name: Spectrometer orthorectified surface bidirectional reflectance - mosaic
+
+Description: Orthorectified surface bidirectional reflectance (0-1 unitless, scaled by 10,000) computed from the NEON Imaging Spectrometer (NIS). Major corrections include: calibration, atmospheric correction, topographic correction, Bidirectional Reflectance Distribution Function (BRDF) correction, and orthorectification. Data are mosaicked into 1 km by 1 km tiles. 
+
+Directional reflectance data (without the BRDF and topographic corrections applied) are available under the "Spectrometer orthorectified surface directional reflectance - mosaic" data product (DP3.30006.001).
+
+NEON Science Team Supplier: Airborne Observation Platform
+
+Abstract: The NEON AOP surface bidirectional reflectance data product is an orthorectified (UTM projection) hyperspectral raster product. It is distributed in an open HDF5 format including all 426 bands from the NEON Imaging Spectrometer. It is a calibrated, atmospherically corrected, topographic and BRDF corrected product distributed as scaled reflectance. Data are output onto a fixed, uniform spatial grid at 1 m resolution using nearest-neighbor resampling; the fixed spatial grid is based on the native spatial resolution which is driven by the aircraft altitude. The H5 file includes many QA and ancillary rasters used as inputs to ATCOR for atmospheric correction as well as outputs from ATCOR for diagnostic purposes. The Level 3 product is distributed in 1 km by 1 km mosaic tiles using the most-nadir pixels from the original flight lines, with one HDF5 file per tile, including the reflectance data and all metadata and ancillary data.
+
+Latency:
+AOP data are expected to be available 60 days after the final collection day at a site. Note: Data for airborne collections in 2022 and 2023 are currently being added to the data portal, so availability for these years may not be complete until the end of 2024. L3 reflectance derived from directional reflectance (DP3.30006.001) will still be available for earlier collections (pre 2022) until they are re-processed with all of the latest reflectance corrections.
+
+Brief Design Description: The Level 3 orthorectified surface directional reflectance data product is distributed in in an open HDF5 data format in UTM projection and ITRF00 datum. Each file contains all 426 reflectance bands for a single 1 km by 1 km tile as well as many QA and ancillary rasters and datasets both used in and produced by ATCOR reflectance processing as well as a map of from which flight line each mosaic pixel is taken.
+
+Brief Study Area Description: NEON AOP data are planned for yearly collects at all NEON sites at 90% of maximum greenness or greater. Coverage is planned to include at least 95% of NIS Tower Airshed area as well as at least 80% of a minimum 10km x 10 km box around that. All acquisitions are subject to change due to weather conditions as well as program planning changes.
+
+Sensor(s): NEON Airborne Observation Platform (AOP) Imaging Spectrometer (NIS) - NASA/JPL AVIRIS-NG
+
+Keywords: BRDF, HDF5, aerial, airborne, atmospherically corrected, bidirectional reflectance, bidirectional reflectance distribution function, hyperspectral imaging (HSI), mosaic, orthorectified, remote sensing, spectrometer, surface reflectance
+
+
+QUERY INFORMATION
+-----------------
+
+
+Site: HARV
+Domain: D08
+
+
+DATA PACKAGE CONTENTS
+---------------------
+
+This folder contains the following documentation files:
+- This readme file: NEON.D08.HARV.DP3.30006.002.readme.20251121T050215Z.txt
+- Other related documents are available such as engineering specifications, field protocols, and data processing 
+documentation. Please visit https://data.neonscience.org/data-products/DP3.30006.002 for more information.
+
+
+This folder also contains 397 data files:
+NEON_D01_HARV_DP3_722000_4707000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_722000_4708000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_722000_4709000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_722000_4710000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_722000_4711000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_722000_4712000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_722000_4713000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_722000_4714000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_722000_4715000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_722000_4716000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_722000_4717000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_722000_4718000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_722000_4719000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_723000_4693000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_723000_4694000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_723000_4695000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_723000_4696000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_723000_4697000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_723000_4698000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_723000_4699000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_723000_4700000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_723000_4701000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_723000_4702000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_723000_4703000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_723000_4704000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_723000_4705000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_723000_4706000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_723000_4707000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_723000_4708000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_723000_4709000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_723000_4710000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_723000_4711000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_723000_4712000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_723000_4713000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_723000_4714000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_723000_4715000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_723000_4716000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_723000_4717000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_723000_4718000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_724000_4693000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_724000_4694000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_724000_4695000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_724000_4696000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_724000_4697000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_724000_4698000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_724000_4699000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_724000_4700000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_724000_4701000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_724000_4702000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_724000_4703000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_724000_4704000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_724000_4705000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_724000_4706000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_724000_4707000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_724000_4708000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_724000_4709000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_724000_4710000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_724000_4711000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_724000_4712000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_724000_4713000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_724000_4714000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_724000_4715000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_724000_4716000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_724000_4717000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_724000_4718000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_725000_4694000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_725000_4695000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_725000_4696000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_725000_4697000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_725000_4698000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_725000_4699000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_725000_4700000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_725000_4701000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_725000_4702000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_725000_4703000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_725000_4704000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_725000_4705000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_725000_4706000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_725000_4707000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_725000_4708000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_725000_4709000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_725000_4710000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_725000_4711000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_725000_4712000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_725000_4713000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_725000_4714000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_725000_4715000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_725000_4716000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_725000_4717000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_725000_4718000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_726000_4694000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_726000_4695000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_726000_4696000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_726000_4697000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_726000_4698000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_726000_4699000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_726000_4700000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_726000_4701000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_726000_4702000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_726000_4703000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_726000_4704000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_726000_4705000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_726000_4706000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_726000_4707000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_726000_4708000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_726000_4709000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_726000_4710000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_726000_4711000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_726000_4712000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_726000_4713000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_726000_4714000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_726000_4715000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_726000_4716000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_726000_4717000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_726000_4718000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_726000_4719000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_727000_4693000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_727000_4694000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_727000_4695000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_727000_4696000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_727000_4697000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_727000_4698000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_727000_4699000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_727000_4700000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_727000_4701000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_727000_4702000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_727000_4703000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_727000_4704000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_727000_4705000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_727000_4706000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_727000_4707000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_727000_4708000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_727000_4709000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_727000_4710000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_727000_4711000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_727000_4712000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_727000_4713000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_727000_4714000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_727000_4715000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_727000_4716000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_727000_4717000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_727000_4718000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_727000_4719000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4693000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4694000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4695000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4696000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4697000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4698000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4699000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4700000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4701000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4702000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4703000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4704000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4705000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4706000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4707000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4708000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4709000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4710000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4711000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4712000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4713000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4714000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4715000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4716000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4717000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4718000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4719000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4720000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_728000_4721000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_729000_4694000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_729000_4695000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_729000_4696000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_729000_4697000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_729000_4698000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_729000_4699000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_729000_4700000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_729000_4701000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_729000_4702000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_729000_4703000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_729000_4704000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_729000_4705000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_729000_4706000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_729000_4707000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_729000_4708000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_729000_4709000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_729000_4710000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_729000_4711000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_729000_4712000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_729000_4713000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_729000_4714000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_729000_4715000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_729000_4716000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_729000_4717000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_729000_4718000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_729000_4719000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_729000_4720000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_729000_4721000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_730000_4695000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_730000_4696000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_730000_4697000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_730000_4698000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_730000_4699000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_730000_4700000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_730000_4701000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_730000_4702000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_730000_4703000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_730000_4704000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_730000_4705000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_730000_4706000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_730000_4707000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_730000_4708000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_730000_4709000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_730000_4710000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_730000_4711000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_730000_4712000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_730000_4713000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_730000_4714000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_730000_4715000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_730000_4716000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_730000_4717000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_730000_4718000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_730000_4719000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_731000_4695000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_731000_4696000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_731000_4697000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_731000_4698000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_731000_4699000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_731000_4700000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_731000_4701000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_731000_4702000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_731000_4703000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_731000_4704000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_731000_4705000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_731000_4706000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_731000_4707000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_731000_4708000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_731000_4709000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_731000_4710000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_731000_4711000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_731000_4712000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_731000_4713000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_731000_4714000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_731000_4715000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_731000_4716000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_731000_4717000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_731000_4718000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_731000_4719000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_731000_4720000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_732000_4695000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_732000_4696000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_732000_4697000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_732000_4698000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_732000_4699000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_732000_4700000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_732000_4701000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_732000_4702000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_732000_4703000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_732000_4704000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_732000_4705000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_732000_4706000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_732000_4707000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_732000_4708000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_732000_4709000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_732000_4710000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_732000_4711000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_732000_4712000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_732000_4713000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_732000_4714000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_732000_4715000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_732000_4716000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_732000_4717000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_732000_4718000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_732000_4719000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_733000_4693000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_733000_4694000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_733000_4695000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_733000_4696000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_733000_4697000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_733000_4698000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_733000_4699000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_733000_4700000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_733000_4701000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_733000_4702000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_733000_4703000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_733000_4704000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_733000_4705000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_733000_4706000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_733000_4707000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_733000_4708000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_733000_4709000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_733000_4710000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_733000_4711000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_733000_4712000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_733000_4713000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_733000_4714000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_733000_4715000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_733000_4716000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_733000_4717000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_733000_4718000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_734000_4694000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_734000_4695000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_734000_4696000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_734000_4697000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_734000_4698000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_734000_4699000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_734000_4700000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_734000_4701000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_734000_4702000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_734000_4703000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_734000_4704000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_734000_4705000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_734000_4706000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_734000_4707000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_734000_4708000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_734000_4709000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_734000_4710000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_734000_4711000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_734000_4712000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_734000_4713000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_734000_4714000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_734000_4715000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_734000_4716000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_734000_4717000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_734000_4718000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_735000_4694000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_735000_4695000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_735000_4696000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_735000_4697000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_735000_4698000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_735000_4699000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_735000_4700000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_735000_4701000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_735000_4702000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_735000_4703000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_735000_4704000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_735000_4705000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_735000_4706000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_735000_4707000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_735000_4708000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_735000_4709000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_735000_4710000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_735000_4711000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_735000_4712000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_735000_4713000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_735000_4714000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_735000_4715000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_735000_4716000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_736000_4700000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_736000_4701000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_736000_4702000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_736000_4703000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_736000_4704000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_736000_4705000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_736000_4706000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_736000_4707000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_736000_4708000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_736000_4709000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_736000_4710000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_736000_4711000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_736000_4712000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_736000_4713000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_736000_4714000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_736000_4715000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_736000_4716000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_736000_4717000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_737000_4700000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_737000_4701000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_737000_4702000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_737000_4703000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_737000_4704000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_737000_4705000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_737000_4706000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_737000_4707000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_737000_4708000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_737000_4709000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_737000_4710000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_737000_4711000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_737000_4712000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_737000_4713000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_737000_4714000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_737000_4715000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_737000_4716000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_737000_4717000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_738000_4700000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_738000_4701000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_738000_4702000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_738000_4703000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_738000_4704000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_738000_4705000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_738000_4706000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_738000_4707000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_738000_4708000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_738000_4709000_bidirectional_reflectance.h5 
+NEON_D01_HARV_DP3_738000_4710000_bidirectional_reflectance.h5 
+
+Basic download package definition: Includes the data product as a single orthorectified mosaic in an open HDF5 format. An expanded package is not available for this product.
+
+
+
+FILE NAMING CONVENTIONS
+-----------------------
+
+NEON data files are named using a series of component abbreviations separated by periods. File naming conventions
+for NEON data files differ between NEON science teams. A file will have the same name whether it is accessed via
+NEON's data portal or API. Please visit https://www.neonscience.org/data-formats-conventions for a full description
+of the naming conventions.
+
+ISSUE LOG
+----------
+
+This log provides a list of issues identified during data collection or processing, prior to publication
+of this data package. For a more recent log, please visit this data product's detail page at
+https://data.neonscience.org/data-products/DP3.30006.002.
+
+Issue Date: 2024-06-25
+Issue: An error was discovered in one of the formulas used to calculate BRDF corrections. The error resulted in a minor bias that was most prevalent in pixels at the edge of flightlines and in the NIR region of the spectrum. Errors generally ranged from 0.1-0.3%, which is well within documented uncertainty limits of 5%. Note that due to the selection of nadir-most pixels in the mosaic product, the most heavily influenced flightline edge pixels are less likely to be transferred to the mosaic product.
+    Date Range: 2024-06-25 to 2024-06-25
+    Location(s) Affected: KONA, KONZ, MCDI, UKFS, SERC, HOPB, UNDE, BART, OAES, MCRA, CUPE, GUIL, GRSM, CLBJ, PRIN, ONAQ, REDB, BLAN, MLBS, SCBI, LIRO, STEI, YELL
+Resolution Date: 
+Resolution: 
+
+Issue Date: 2025-03-24
+Issue: Error in the timing signal caused errors in spectrometer geolocation for certain flightlines. Extent of each site affected is variable.
+    Date Range: 2022-05-30 to 2022-09-07
+    Location(s) Affected: ABBY, ARIK, HARV, KONA, KONZ, SCBI, SRER
+    Date Range: 2023-06-02 to 2023-06-10
+    Location(s) Affected: MLBS
+    Date Range: 2024-05-14 to 2024-06-06
+    Location(s) Affected: CLBJ, CPER
+Resolution Date: 
+Resolution: 
+
+Issue Date: 2025-10-21
+Issue: Error in trajectory timing signal caused errors in geolocation for a portion of the site.
+    Date Range: 2025-08-23 to 2025-09-03
+    Location(s) Affected: HARV
+Resolution Date: 
+Resolution: 
+
+
+ADDITIONAL INFORMATION
+----------------------
+
+
+Starting in March 2024, topographic and BRDF corrected reflectance and derived data products will initially only be available for data collected starting in 2022. AOP spectrometer data collected between 2013-2021 will be back-processed to apply the BRDF and topographic corrections, so data for these years are expected to become available on a rolling basis beginning in late 2025.
+
+In 2024, the L3 Surface Bidirectional Reflectance data product was added to the Google Earth Engine (GEE) [Publisher Data Catalogs](https://developers.google.com/earth-engine/datasets/publisher/neon-prod-earthengine) as an Image Collection. Details about this GEE dataset can be found here: https://developers.google.com/earth-engine/datasets/catalog/projects_neon-prod-earthengine_assets_HSI_REFL_002. Bidirectional reflectance data available on GEE may not represent the full archive of data available on the NEON Data Portal. Additional site visits can be added to GEE upon request by emailing listaopgee@battelleecology.org.
+
+NEON DATA POLICY AND CITATION GUIDELINES
+----------------------------------------
+
+A citation statement is available in this data product's detail page at
+https://data.neonscience.org/data-products/DP3.30006.002. Please visit https://www.neonscience.org/data-policy for
+more information about NEON's data policy and citation guidelines.
+
+DATA QUALITY AND VERSIONING
+---------------------------
+
+NEON data are initially published with a status of Provisional, in which updates to data and/or processing
+algorithms will occur on an as-needed basis, and query reproducibility cannot be guaranteed. Once data are published
+as part of a Data Release, they are no longer provisional, and are associated with a stable DOI.
+
+To learn more about provisional versus released data, please visit
+https://www.neonscience.org/data-revisions-releases.
